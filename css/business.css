@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/**** by Tia  ****/
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, #080606 0%, #16100b 50%, #19110c 100%);
+}
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+  padding: 0;
+}
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+/***** common css  *****/
+.banner {
+  width: 100%;
+  height: 671px;
+  margin: 0 auto;
+  background: url("../images/bg1.jpg") center center no-repeat;
+  background-size: cover;
+  background-color: #0b0d0e;
+}
+.banner>.container {
+  min-height: 600px;
+  position: relative;
+  border: 1px solid #fff;
+}
+.banner>.container .logo {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  z-index: 2;
+}
+.banner>.container .shine1 {
+  width: 600px;
+  height: 98px;
+  background: url("../images/sh.jpg") top left no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 132px;
+  left: 26%;
+  z-index: 1;
+}
+.banner>.container .big-font {
+  width: 600px;
+  height: 210px;
+  background: url("../images/big-font.png") top left no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 100px;
+  left: 27%;
+  z-index: 2;
+}
+.content {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  margin-right: 0;
+}
+.content>.container {
+  width: 1200px;
+  margin: 0 auto;
+  min-height: 600px;
+  padding-top: 600px;
+}
+
+.header {
+  width: 100%;
+  height: 119px;
+  background: transparent;
+  border: 1px solid #fff;
+}
+.header .header-nav {
+  width: 100%;
+}
