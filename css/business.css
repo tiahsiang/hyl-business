@@ -505,7 +505,7 @@ html, body {
 }
 .floatBar {
   position: fixed;
-  right: 5%;
+  right: 50px;
   bottom: 5%;
 }
 .floatBar li {
