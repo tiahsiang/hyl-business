@@ -505,8 +505,8 @@ html, body {
 }
 .floatBar {
   position: fixed;
-  right: 50px;
-  bottom: 5%;
+  right: 10px;
+  bottom: 30%;
 }
 .floatBar li {
   text-align: center;
