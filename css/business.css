@@ -499,3 +499,43 @@ ul, li {
   color: #888;
   vertical-align: middle;
 }
+/* 侧边浮动栏 */
+html, body {
+  position: relative;
+}
+.floatBar {
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+}
+.floatBar li {
+  text-align: center;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(255, 255, 255, 1)), to(rgba(230, 208, 113, 1)));
+}
+
+.floatBar li>a {
+  display: block;
+  font-size: 20px;
+  color: #735200;
+  font-weight: bold;
+  padding: 10px 5px;
+  text-decoration: none;
+  line-height: 1.2;
+  text-align: center;
+}
+.floatBar li:first-child>a {
+  writing-mode: horizontal-tb; /*基本上就是这句的化腐朽为神奇了*/
+  text-align:center;
+  letter-spacing: 2px;
+}
+.floatBar li:first-child>a b {
+  display: block;
+  margin: 0 auto;
+}
+.floatBar li:last-child a {
+  width: 47px;
+  height: 47px;
+  text-align: center;
+}
