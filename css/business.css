@@ -84,6 +84,7 @@ ul, li {
   margin-left: -10px;
 }
 .content>.container .agent .intro {
+  cursor: pointer;
   white-space: pre-line;
   font-size: 16px;
   color: #d6bc9a;
@@ -213,6 +214,20 @@ ul, li {
   font-family: "PingFang SC Medium", Helvetica, Arial, sans-serif, "Roboto Slab", "Helvetica Neue";
   text-align: justify;
   line-height: 1.8;
+}
+.advance .intro a {
+  display: block;
+  font-size: 16px;
+  color: #d6bc9a;
+  text-decoration: none;
+}
+.advance .intro a:hover {
+  color: #f1d5b1;
+  text-decoration: none;
+}
+.advance .intro a.active {
+  color: #d6bc9a;
+  text-decoration: none;
 }
 .content>.container .user .title3 {
   width: 1123px;
